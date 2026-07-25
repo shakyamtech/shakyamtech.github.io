@@ -3,39 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mahesh Shakya — Full Stack Developer</title>
-    <meta name="description" content="Portfolio of Mahesh Shakya — Full Stack Developer specializing in web applications using React, TypeScript, Python, and modern frameworks.">
-    <meta property="og:title" content="Mahesh Shakya — Full Stack Developer">
-    <meta property="og:description" content="Building modern web applications that solve real problems.">
+    <title>Mahesh Shakya — Systems Architect & Full Stack Engineer</title>
+    <meta name="description" content="Portfolio & Architecture Showcase of Mahesh Shakya — Full Stack Developer specializing in high-performance web applications, Next.js 15, React 19, Python FastAPI, and Cloud Systems.">
+    <meta property="og:title" content="Mahesh Shakya — Systems Architect & Full Stack Engineer">
+    <meta property="og:description" content="Explore high-performance full-stack applications, cloud architecture, and modern engineering platforms.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://shakyamtech.github.io">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Ambient Background -->
+    <!-- Ambient Glowing Orbs Background -->
     <div class="ambient-bg">
         <div class="ambient-orb ambient-orb-1"></div>
         <div class="ambient-orb ambient-orb-2"></div>
         <div class="ambient-orb ambient-orb-3"></div>
+        <div class="grid-pattern"></div>
     </div>
 
-    <!-- Navigation -->
+    <!-- Navigation Header -->
     <nav class="navbar" id="navbar">
         <div class="container nav-content">
             <a href="#" class="nav-logo">
-                <span class="logo-bracket">&lt;</span>MS<span class="logo-bracket">/&gt;</span>
+                <span class="logo-bracket">&lt;</span>MS<span class="logo-slash">/</span><span class="logo-text">ARCH</span><span class="logo-bracket">&gt;</span>
             </a>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#tech-matrix">Tech Matrix</a></li>
+                <li><a href="#projects">Systems & Apps</a></li>
+                <li><a href="#architecture">Architecture</a></li>
+                <li><a href="#contact">Connect</a></li>
             </ul>
-            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
                 <span></span><span></span><span></span>
             </button>
         </div>
@@ -43,223 +46,382 @@
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="container hero-content">
-            <div class="hero-badge">
-                <span class="badge-dot"></span>
-                Available for freelance projects
-            </div>
-            <h1 class="hero-title">
-                Hi, I'm <span class="gradient-text">Mahesh Shakya</span>
-            </h1>
-            <p class="hero-subtitle">
-                Full Stack Developer crafting modern web applications with 
-                <span class="typed-text">React</span>, 
-                <span class="typed-text">TypeScript</span> & 
-                <span class="typed-text">Python</span>
-            </p>
-            <p class="hero-description">
-                I build real-world software solutions — from hospital management systems to e-commerce platforms — 
-                that help businesses operate smarter.
-            </p>
-            <div class="hero-actions">
-                <a href="#projects" class="btn btn-primary">
-                    <i class="fa-solid fa-rocket"></i> View My Work
-                </a>
-                <a href="#contact" class="btn btn-outline">
-                    <i class="fa-solid fa-envelope"></i> Get in Touch
-                </a>
-            </div>
-            <div class="hero-stats">
-                <div class="stat">
-                    <span class="stat-number">8+</span>
-                    <span class="stat-label">Projects Built</span>
+        <div class="container hero-grid">
+            <div class="hero-left">
+                <div class="hero-status">
+                    <span class="status-pulse"></span>
+                    <span class="status-text">Available for High-Impact Projects & Systems Design</span>
                 </div>
-                <div class="stat-divider"></div>
-                <div class="stat">
-                    <span class="stat-number">3+</span>
-                    <span class="stat-label">Years Experience</span>
+                
+                <h1 class="hero-title">
+                    Building <span class="gradient-text-neon">Scalable Systems</span> & Modern Web Engines
+                </h1>
+
+                <p class="hero-subtext">
+                    I design and implement enterprise-grade software solutions using 
+                    <span class="tech-highlight">React 19</span>, 
+                    <span class="tech-highlight">Next.js 15</span>, 
+                    <span class="tech-highlight">TypeScript</span>, 
+                    <span class="tech-highlight">Python FastAPI</span>, and 
+                    <span class="tech-highlight">Cloud Databases</span>.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary-glow">
+                        <i class="fa-solid fa-layer-group"></i> Explore Systems
+                    </a>
+                    <a href="https://shakyamahesh.com.np" target="_blank" class="btn btn-outline-glow">
+                        <i class="fa-solid fa-globe"></i> Official Site
+                    </a>
                 </div>
-                <div class="stat-divider"></div>
-                <div class="stat">
-                    <span class="stat-number">5+</span>
-                    <span class="stat-label">Tech Stacks</span>
+
+                <!-- High-Tech Badges Bar -->
+                <div class="tech-badges-bar">
+                    <span class="badge-pill"><i class="fa-brands fa-react"></i> React 19</span>
+                    <span class="badge-pill"><i class="fa-solid fa-n"></i> Next.js 15</span>
+                    <span class="badge-pill"><i class="fa-brands fa-js"></i> TypeScript 5.5</span>
+                    <span class="badge-pill"><i class="fa-brands fa-python"></i> Python 3.12</span>
+                    <span class="badge-pill"><i class="fa-solid fa-bolt"></i> FastAPI</span>
+                    <span class="badge-pill"><i class="fa-solid fa-database"></i> PostgreSQL</span>
+                    <span class="badge-pill"><i class="fa-solid fa-cloud"></i> Firebase / Supabase</span>
+                    <span class="badge-pill"><i class="fa-brands fa-docker"></i> Docker</span>
+                </div>
+            </div>
+
+            <!-- Hero Interactive Terminal Window -->
+            <div class="hero-right">
+                <div class="terminal-card">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="btn-dot close"></span>
+                            <span class="btn-dot minimize"></span>
+                            <span class="btn-dot expand"></span>
+                        </div>
+                        <span class="terminal-title"><i class="fa-solid fa-terminal"></i> mahesh@system-arch:~</span>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line"><span class="t-prompt">$</span> <span class="t-cmd">neofetch --developer</span></div>
+                        <div class="terminal-output">
+                            <div class="t-key">DEVELOPER:</div> <div class="t-val">Mahesh Shakya</div>
+                            <div class="t-key">ROLE:</div> <div class="t-val">Full-Stack Engineer & Systems Architect</div>
+                            <div class="t-key">LOCATION:</div> <div class="t-val">Lalitpur, Nepal 🇳🇵</div>
+                            <div class="t-key">PRIMARY_STACK:</div> <div class="t-val">TS / React / Next.js / Python / FastAPI</div>
+                            <div class="t-key">DATABASE:</div> <div class="t-val">PostgreSQL / Supabase / Firebase / Redis</div>
+                            <div class="t-key">DEVOPS:</div> <div class="t-val">Docker / GitHub Actions / Cloudflare</div>
+                            <div class="t-key">STATUS:</div> <div class="t-val t-success">● Active & Building Enterprise Solutions</div>
+                        </div>
+
+                        <div class="terminal-line margin-top-10"><span class="t-prompt">$</span> <span class="t-cmd">cat active_stack.json</span></div>
+                        <div class="terminal-code">
+<span class="c-brace">{</span>
+  <span class="c-key">"frontend"</span>: <span class="c-str">"React 19 + Next.js 15 + Tailwind CSS"</span>,
+  <span class="c-key">"backend"</span>:  <span class="c-str">"FastAPI + Node.js + WebSockets"</span>,
+  <span class="c-key">"security"</span>: <span class="c-str">"OAuth2 + RBAC + AES-256 Encryption"</span>,
+  <span class="c-key">"realtime"</span>: <span class="c-str">"PubSub Engine + WebSockets"</span>
+<span class="c-brace">}</span>
+                        </div>
+
+                        <div class="terminal-line margin-top-10"><span class="t-prompt">$</span> <span class="t-cmd typing-cursor">system-status --ready</span></div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Tech Stack Matrix Section -->
+    <section class="tech-matrix" id="tech-matrix">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fa-solid fa-microchip"></i> Engineering Toolkit</span>
+                <h2 class="section-title">Technology Matrix</h2>
+                <p class="section-desc">Proven stack for building high-scale, reliable digital products.</p>
+            </div>
+
+            <div class="matrix-grid">
+                <!-- Frontend Column -->
+                <div class="matrix-card">
+                    <div class="matrix-card-header">
+                        <div class="matrix-icon icon-blue"><i class="fa-solid fa-code"></i></div>
+                        <h3>Frontend Engineering</h3>
+                    </div>
+                    <ul class="matrix-list">
+                        <li><i class="fa-brands fa-react color-react"></i> <span>React 19 & Next.js 15</span> <span class="level-badge">Expert</span></li>
+                        <li><i class="fa-brands fa-js color-ts"></i> <span>TypeScript 5.5 (Strict Mode)</span> <span class="level-badge">Advanced</span></li>
+                        <li><i class="fa-solid fa-bolt color-vite"></i> <span>Vite & TanStack Query</span> <span class="level-badge">Advanced</span></li>
+                        <li><i class="fa-brands fa-css3-alt color-css"></i> <span>Tailwind CSS v4 & CSS Modules</span> <span class="level-badge">Expert</span></li>
+                        <li><i class="fa-solid fa-mobile-screen color-pwa"></i> <span>PWA & Offline Service Workers</span> <span class="level-badge">Proficient</span></li>
+                    </ul>
+                </div>
+
+                <!-- Backend & DB Column -->
+                <div class="matrix-card">
+                    <div class="matrix-card-header">
+                        <div class="matrix-icon icon-green"><i class="fa-solid fa-server"></i></div>
+                        <h3>Backend & Cloud Infra</h3>
+                    </div>
+                    <ul class="matrix-list">
+                        <li><i class="fa-brands fa-python color-python"></i> <span>Python 3.12 & FastAPI</span> <span class="level-badge">Expert</span></li>
+                        <li><i class="fa-brands fa-node-js color-node"></i> <span>Node.js ESM & Express</span> <span class="level-badge">Advanced</span></li>
+                        <li><i class="fa-solid fa-database color-pg"></i> <span>PostgreSQL & Supabase</span> <span class="level-badge">Advanced</span></li>
+                        <li><i class="fa-solid fa-fire color-firebase"></i> <span>Firebase Admin SDK & Auth</span> <span class="level-badge">Expert</span></li>
+                        <li><i class="fa-brands fa-laravel color-laravel"></i> <span>Laravel 11 REST APIs</span> <span class="level-badge">Proficient</span></li>
+                    </ul>
+                </div>
+
+                <!-- Architecture & Security Column -->
+                <div class="matrix-card">
+                    <div class="matrix-card-header">
+                        <div class="matrix-icon icon-purple"><i class="fa-solid fa-shield-halved"></i></div>
+                        <h3>Architecture & Security</h3>
+                    </div>
+                    <ul class="matrix-list">
+                        <li><i class="fa-solid fa-user-lock color-auth"></i> <span>Role-Based Access Control (RBAC)</span> <span class="level-badge">Core Focus</span></li>
+                        <li><i class="fa-solid fa-plug color-ws"></i> <span>Real-Time WebSockets & PubSub</span> <span class="level-badge">Advanced</span></li>
+                        <li><i class="fa-solid fa-file-invoice color-pdf"></i> <span>Automated PDF & Print Engine</span> <span class="level-badge">Expert</span></li>
+                        <li><i class="fa-brands fa-git-alt color-git"></i> <span>Git Version Control & Workflows</span> <span class="level-badge">Expert</span></li>
+                        <li><i class="fa-solid fa-palette color-figma"></i> <span>Figma UI/UX & Design Systems</span> <span class="level-badge">Proficient</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section with Interactive Category Filter -->
     <section class="projects" id="projects">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag"><i class="fa-solid fa-code"></i> Portfolio</span>
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-desc">A collection of real-world applications I've designed and developed.</p>
+                <span class="section-tag"><i class="fa-solid fa-cubes"></i> Showcased Systems</span>
+                <h2 class="section-title">Production Projects & Applications</h2>
+                <p class="section-desc">Explore full-stack platforms engineered for business operations, health, education, and commerce.</p>
+            </div>
+
+            <!-- Category Filter Buttons -->
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">All Systems (8)</button>
+                <button class="filter-btn" data-filter="health-edu">Health & Education</button>
+                <button class="filter-btn" data-filter="commerce-finance">Commerce & Finance</button>
+                <button class="filter-btn" data-filter="tools-apps">Tools & Management</button>
             </div>
 
             <div class="projects-grid">
 
                 <!-- Hospital OPD -->
-                <div class="project-card" data-aos="fade-up">
+                <div class="project-card" data-category="health-edu">
                     <div class="card-image">
                         <img src="assets/hospital-opd.png" alt="Hospital OPD Management" loading="lazy">
                         <div class="card-overlay">
-                            <a href="https://github.com/shakyamtech/Hospital-OPD-Management" target="_blank" class="overlay-btn">
+                            <a href="https://github.com/shakyamtech/Hospital-OPD-Management" target="_blank" class="overlay-btn" title="GitHub Repository">
                                 <i class="fa-brands fa-github"></i>
                             </a>
                         </div>
+                        <span class="arch-badge"><i class="fa-solid fa-hospital"></i> Medical Platform</span>
                     </div>
                     <div class="card-body">
                         <div class="card-tags">
                             <span class="tag tag-blue">JavaScript</span>
-                            <span class="tag tag-green">Python</span>
+                            <span class="tag tag-green">Python FastAPI</span>
                             <span class="tag tag-orange">Firebase</span>
                         </div>
-                        <h3 class="card-title">Hospital OPD Management</h3>
-                        <p class="card-desc">Complete hospital management system with patient records, doctor appointments, pharmacy inventory, billing and prescription management.</p>
+                        <h3 class="card-title">Hospital OPD Management System</h3>
+                        <p class="card-desc">Comprehensive OPD software with doctor scheduling, patient records, pharmacy inventory, counter billing, and custom printable PDF receipts.</p>
+
+                        <div class="arch-highlights">
+                            <span class="arch-pill"><i class="fa-solid fa-shield-cat"></i> RBAC Security</span>
+                            <span class="arch-pill"><i class="fa-solid fa-print"></i> Blob Print Engine</span>
+                            <span class="arch-pill"><i class="fa-solid fa-bolt"></i> Real-time Sync</span>
+                        </div>
                     </div>
                 </div>
 
                 <!-- LMS -->
-                <div class="project-card" data-aos="fade-up">
+                <div class="project-card" data-category="health-edu">
                     <div class="card-image">
                         <img src="assets/lms.png" alt="Learning Management System" loading="lazy">
                         <div class="card-overlay">
-                            <a href="https://github.com/shakyamtech/LMS-Learning-Mgmt-System" target="_blank" class="overlay-btn">
+                            <a href="https://github.com/shakyamtech/LMS-Learning-Mgmt-System" target="_blank" class="overlay-btn" title="GitHub Repository">
                                 <i class="fa-brands fa-github"></i>
                             </a>
                         </div>
+                        <span class="arch-badge"><i class="fa-solid fa-graduation-cap"></i> EdTech Platform</span>
                     </div>
                     <div class="card-body">
                         <div class="card-tags">
                             <span class="tag tag-blue">TypeScript</span>
-                            <span class="tag tag-purple">React</span>
-                            <span class="tag tag-teal">TanStack</span>
+                            <span class="tag tag-purple">Next.js 15</span>
+                            <span class="tag tag-teal">Firebase Admin</span>
                         </div>
-                        <h3 class="card-title">LMS — Learning Management</h3>
-                        <p class="card-desc">Full-featured learning platform with course management, student enrollment, progress tracking, video lessons and assignment submissions.</p>
-                    </div>
-                </div>
+                        <h3 class="card-title">LMS — Learning Management Platform</h3>
+                        <p class="card-desc">Next-generation edu-tech platform featuring course creation, student enrollment, video lesson streaming, assignment submissions, and grade analytics.</p>
 
-                <!-- Sabzi Mandi -->
-                <div class="project-card" data-aos="fade-up">
-                    <div class="card-image">
-                        <img src="assets/sabzi-mandi.png" alt="Sabzi Mandi" loading="lazy">
-                        <div class="card-overlay">
-                            <a href="https://github.com/shakyamtech/Sabzi-Mandi" target="_blank" class="overlay-btn">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
+                        <div class="arch-highlights">
+                            <span class="arch-pill"><i class="fa-solid fa-users-gear"></i> Multi-Role Portal</span>
+                            <span class="arch-pill"><i class="fa-solid fa-video"></i> Media Streaming</span>
+                            <span class="arch-pill"><i class="fa-solid fa-chart-line"></i> Analytics</span>
                         </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="card-tags">
-                            <span class="tag tag-blue">TypeScript</span>
-                            <span class="tag tag-purple">React</span>
-                            <span class="tag tag-green">Vite</span>
-                        </div>
-                        <h3 class="card-title">Sabzi Mandi</h3>
-                        <p class="card-desc">Fresh vegetable marketplace platform with product catalog, cart system, order management and delivery tracking for local vendors.</p>
                     </div>
                 </div>
 
                 <!-- KhataPlus -->
-                <div class="project-card" data-aos="fade-up">
+                <div class="project-card" data-category="commerce-finance">
                     <div class="card-image">
                         <img src="assets/khataplus.png" alt="KhataPlus" loading="lazy">
                         <div class="card-overlay">
-                            <a href="https://github.com/shakyamtech/KhataPlus" target="_blank" class="overlay-btn">
+                            <a href="https://github.com/shakyamtech/KhataPlus" target="_blank" class="overlay-btn" title="GitHub Repository">
                                 <i class="fa-brands fa-github"></i>
                             </a>
                         </div>
+                        <span class="arch-badge"><i class="fa-solid fa-calculator"></i> Fintech Software</span>
                     </div>
                     <div class="card-body">
                         <div class="card-tags">
                             <span class="tag tag-blue">TypeScript</span>
                             <span class="tag tag-purple">React</span>
-                            <span class="tag tag-teal">Finance</span>
+                            <span class="tag tag-teal">Supabase</span>
                         </div>
-                        <h3 class="card-title">KhataPlus</h3>
-                        <p class="card-desc">Smart accounting and bookkeeping application with ledger management, income/expense tracking, invoice generation and financial reports.</p>
+                        <h3 class="card-title">KhataPlus — Accounting & Bookkeeping</h3>
+                        <p class="card-desc">Smart double-entry bookkeeping system with daily ledger, stock tracking, automatic daybook, balance sheet generation, and tax-ready reporting.</p>
+
+                        <div class="arch-highlights">
+                            <span class="arch-pill"><i class="fa-solid fa-book-journal-whills"></i> Double Entry</span>
+                            <span class="arch-pill"><i class="fa-solid fa-file-invoice-dollar"></i> Auto Tax Reports</span>
+                            <span class="arch-pill"><i class="fa-solid fa-lock"></i> Encrypted Vault</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sabzi Mandi -->
+                <div class="project-card" data-category="commerce-finance">
+                    <div class="card-image">
+                        <img src="assets/sabzi-mandi.png" alt="Sabzi Mandi" loading="lazy">
+                        <div class="card-overlay">
+                            <a href="https://github.com/shakyamtech/Sabzi-Mandi" target="_blank" class="overlay-btn" title="GitHub Repository">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                        <span class="arch-badge"><i class="fa-solid fa-basket-shopping"></i> Marketplace PWA</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-tags">
+                            <span class="tag tag-blue">TypeScript</span>
+                            <span class="tag tag-purple">React</span>
+                            <span class="tag tag-green">Vite PWA</span>
+                        </div>
+                        <h3 class="card-title">Sabzi Mandi — Produce Marketplace</h3>
+                        <p class="card-desc">Fresh produce marketplace PWA featuring real-time price updates, vendor catalog management, cart system, and delivery dispatch tracking.</p>
+
+                        <div class="arch-highlights">
+                            <span class="arch-pill"><i class="fa-solid fa-wifi-slash"></i> Offline PWA</span>
+                            <span class="arch-pill"><i class="fa-solid fa-layer-group"></i> Vendor Portal</span>
+                            <span class="arch-pill"><i class="fa-solid fa-truck-fast"></i> Dispatch Sync</span>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Lyka Nepal -->
-                <div class="project-card" data-aos="fade-up">
+                <div class="project-card" data-category="commerce-finance">
                     <div class="card-image">
                         <img src="assets/lyka-nepal.png" alt="Lyka Nepal" loading="lazy">
                         <div class="card-overlay">
-                            <a href="https://github.com/shakyamtech/lyka-nepal" target="_blank" class="overlay-btn">
+                            <a href="https://github.com/shakyamtech/lyka-nepal" target="_blank" class="overlay-btn" title="GitHub Repository">
                                 <i class="fa-brands fa-github"></i>
                             </a>
                         </div>
+                        <span class="arch-badge"><i class="fa-solid fa-store"></i> E-Commerce Engine</span>
                     </div>
                     <div class="card-body">
                         <div class="card-tags">
                             <span class="tag tag-blue">TypeScript</span>
                             <span class="tag tag-purple">React</span>
-                            <span class="tag tag-orange">E-Commerce</span>
+                            <span class="tag tag-orange">Tailwind CSS</span>
                         </div>
-                        <h3 class="card-title">Lyka Nepal</h3>
-                        <p class="card-desc">E-commerce business platform for Nepal with product listings, brand showcase, shopping cart and secure checkout functionality.</p>
+                        <h3 class="card-title">Lyka Nepal — Business Platform</h3>
+                        <p class="card-desc">E-commerce platform for Nepali businesses featuring product catalog, multi-category navigation, cart management, and responsive storefront.</p>
+
+                        <div class="arch-highlights">
+                            <span class="arch-pill"><i class="fa-solid fa-cart-shopping"></i> Dynamic Cart</span>
+                            <span class="arch-pill"><i class="fa-solid fa-mobile"></i> Mobile First</span>
+                            <span class="arch-pill"><i class="fa-solid fa-sliders"></i> Smart Filters</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Jewellery Management -->
+                <div class="project-card" data-category="tools-apps">
+                    <div class="card-image">
+                        <img src="assets/jewellery-mgmt.png" alt="Jewellery Management" loading="lazy">
+                        <div class="card-overlay">
+                            <a href="https://github.com/shakyamtech/jewellery-management" target="_blank" class="overlay-btn" title="GitHub Repository">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                        <span class="arch-badge"><i class="fa-solid fa-gem"></i> Retail System</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-tags">
+                            <span class="tag tag-blue">TypeScript</span>
+                            <span class="tag tag-purple">React</span>
+                            <span class="tag tag-yellow">Gold & Silver</span>
+                        </div>
+                        <h3 class="card-title">Jewellery Shop Management</h3>
+                        <p class="card-desc">Automated jewellery ERP software with live market rate integration, gold/silver weight calculators, customer ledger, and billing invoices.</p>
+
+                        <div class="arch-highlights">
+                            <span class="arch-pill"><i class="fa-solid fa-scale-balanced"></i> Weight Calc</span>
+                            <span class="arch-pill"><i class="fa-solid fa-chart-line"></i> Live Gold Rate</span>
+                            <span class="arch-pill"><i class="fa-solid fa-boxes-packing"></i> Stock Audit</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Restaurant Management -->
+                <div class="project-card" data-category="tools-apps">
+                    <div class="card-image">
+                        <img src="assets/restaurant-mgmt.png" alt="Restaurant Management" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="overlay-label"><i class="fa-solid fa-lock"></i> Private Repo</span>
+                        </div>
+                        <span class="arch-badge"><i class="fa-solid fa-utensils"></i> Restaurant POS</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-tags">
+                            <span class="tag tag-blue">TypeScript</span>
+                            <span class="tag tag-purple">React</span>
+                            <span class="tag tag-red">WebSockets</span>
+                        </div>
+                        <h3 class="card-title">Restaurant POS & Kitchen Display</h3>
+                        <p class="card-desc">High-speed restaurant management software with live Kitchen Display System (KDS), table ordering, menu builder, and POS counter billing.</p>
+
+                        <div class="arch-highlights">
+                            <span class="arch-pill"><i class="fa-solid fa-tv"></i> Kitchen Display</span>
+                            <span class="arch-pill"><i class="fa-solid fa-receipt"></i> POS Billing</span>
+                            <span class="arch-pill"><i class="fa-solid fa-arrows-rotate"></i> Instant Sync</span>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Mangal Sensei -->
-                <div class="project-card" data-aos="fade-up">
+                <div class="project-card" data-category="tools-apps">
                     <div class="card-image">
                         <img src="assets/mangal-sensei.png" alt="Mangal Sensei" loading="lazy">
                         <div class="card-overlay">
-                            <span class="overlay-label">Private Repo</span>
+                            <span class="overlay-label"><i class="fa-solid fa-lock"></i> Private Repo</span>
                         </div>
+                        <span class="arch-badge"><i class="fa-solid fa-language"></i> Language App</span>
                     </div>
                     <div class="card-body">
                         <div class="card-tags">
                             <span class="tag tag-blue">JavaScript</span>
                             <span class="tag tag-green">Vite</span>
-                            <span class="tag tag-red">Japanese</span>
+                            <span class="tag tag-red">Japanese JLPT</span>
                         </div>
-                        <h3 class="card-title">Mangal Sensei</h3>
-                        <p class="card-desc">Interactive Japanese language learning platform with Hiragana/Katakana lessons, flashcard system, quizzes and progress tracking.</p>
-                    </div>
-                </div>
+                        <h3 class="card-title">Mangal Sensei — Japanese EdTech</h3>
+                        <p class="card-desc">Interactive Japanese learning web app featuring Hiragana/Katakana practice, spaced-repetition flashcards, audio pronunciation, and JLPT quizzes.</p>
 
-                <!-- Jewellery Management -->
-                <div class="project-card" data-aos="fade-up">
-                    <div class="card-image">
-                        <img src="assets/jewellery-mgmt.png" alt="Jewellery Management" loading="lazy">
-                        <div class="card-overlay">
-                            <a href="https://github.com/shakyamtech/jewellery-management" target="_blank" class="overlay-btn">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
+                        <div class="arch-highlights">
+                            <span class="arch-pill"><i class="fa-solid fa-brain"></i> Spaced Repetition</span>
+                            <span class="arch-pill"><i class="fa-solid fa-volume-high"></i> Audio Engine</span>
+                            <span class="arch-pill"><i class="fa-solid fa-gamepad"></i> Quiz Engine</span>
                         </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="card-tags">
-                            <span class="tag tag-blue">TypeScript</span>
-                            <span class="tag tag-purple">React</span>
-                            <span class="tag tag-yellow">Gold/Silver</span>
-                        </div>
-                        <h3 class="card-title">Jewellery Management</h3>
-                        <p class="card-desc">Complete jewellery shop management with gold/silver inventory, billing, customer records and product catalog system.</p>
-                    </div>
-                </div>
-
-                <!-- Restaurant Management -->
-                <div class="project-card" data-aos="fade-up">
-                    <div class="card-image">
-                        <img src="assets/restaurant-mgmt.png" alt="Restaurant Management" loading="lazy">
-                        <div class="card-overlay">
-                            <span class="overlay-label">Private Repo</span>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="card-tags">
-                            <span class="tag tag-blue">TypeScript</span>
-                            <span class="tag tag-purple">React</span>
-                            <span class="tag tag-red">POS</span>
-                        </div>
-                        <h3 class="card-title">Restaurant Management</h3>
-                        <p class="card-desc">Restaurant ordering and kitchen management system with menu builder, table reservations, POS billing and order tracking.</p>
                     </div>
                 </div>
 
@@ -267,35 +429,44 @@
         </div>
     </section>
 
-    <!-- Tech Stack Section -->
-    <section class="tech-stack">
+    <!-- Architecture & Principles Section -->
+    <section class="architecture" id="architecture">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag"><i class="fa-solid fa-layer-group"></i> Skills</span>
-                <h2 class="section-title">Tech Stack</h2>
+                <span class="section-tag"><i class="fa-solid fa-diagram-project"></i> Core Principles</span>
+                <h2 class="section-title">Software Engineering Standard</h2>
+                <p class="section-desc">How I architect applications for long-term scalability, speed, and maintainability.</p>
             </div>
-            <div class="tech-grid">
-                <div class="tech-item"><i class="fa-brands fa-react"></i><span>React</span></div>
-                <div class="tech-item"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
-                <div class="tech-item"><i class="fa-brands fa-js"></i><span>TypeScript</span></div>
-                <div class="tech-item"><i class="fa-brands fa-python"></i><span>Python</span></div>
-                <div class="tech-item"><i class="fa-brands fa-node-js"></i><span>Node.js</span></div>
-                <div class="tech-item"><i class="fa-brands fa-laravel"></i><span>Laravel</span></div>
-                <div class="tech-item"><i class="fa-solid fa-fire"></i><span>Firebase</span></div>
-                <div class="tech-item"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
-                <div class="tech-item"><i class="fa-brands fa-html5"></i><span>HTML/CSS</span></div>
-                <div class="tech-item"><i class="fa-solid fa-bolt"></i><span>Vite</span></div>
+
+            <div class="arch-grid">
+                <div class="arch-card">
+                    <div class="arch-icon"><i class="fa-solid fa-shield-virus"></i></div>
+                    <h3>Strict Type Safety & Clean Code</h3>
+                    <p>Building with TypeScript strict mode and modular architecture prevents runtime errors and keeps codebase scalable across multi-developer teams.</p>
+                </div>
+
+                <div class="arch-card">
+                    <div class="arch-icon"><i class="fa-solid fa-bolt-lightning"></i></div>
+                    <h3>Sub-Second Performance</h3>
+                    <p>Optimized bundle sizes, server-side rendering (SSR), intelligent caching with Redis/TanStack Query, and lazy loading ensure fast page loads.</p>
+                </div>
+
+                <div class="arch-card">
+                    <div class="arch-icon"><i class="fa-solid fa-lock"></i></div>
+                    <h3>Security & Access Control</h3>
+                    <p>Implementing fine-grained Role-Based Access Control (RBAC), token rotation, input sanitization, and server-side secret isolation.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact & Connect Section -->
     <section class="contact" id="contact">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag"><i class="fa-solid fa-paper-plane"></i> Connect</span>
-                <h2 class="section-title">Get In Touch</h2>
-                <p class="section-desc">Have a project in mind? Let's work together to build something amazing.</p>
+                <span class="section-tag"><i class="fa-solid fa-paper-plane"></i> Let's Collaborate</span>
+                <h2 class="section-title">Connect with Me</h2>
+                <p class="section-desc">Available for system architecture design, web development projects, and software consulting.</p>
             </div>
             <div class="contact-links">
                 <a href="https://github.com/shakyamtech" target="_blank" class="contact-card">
@@ -303,25 +474,25 @@
                     <span class="contact-label">GitHub</span>
                     <span class="contact-handle">@shakyamtech</span>
                 </a>
+                <a href="https://shakyamahesh.com.np" target="_blank" class="contact-card">
+                    <i class="fa-solid fa-globe"></i>
+                    <span class="contact-label">Official Website</span>
+                    <span class="contact-handle">shakyamahesh.com.np</span>
+                </a>
                 <a href="https://www.linkedin.com/in/mahesh-shakya-nepal" target="_blank" class="contact-card">
                     <i class="fa-brands fa-linkedin"></i>
                     <span class="contact-label">LinkedIn</span>
                     <span class="contact-handle">Mahesh Shakya</span>
                 </a>
-                <a href="https://www.facebook.com/MsoftInst" target="_blank" class="contact-card">
-                    <i class="fa-brands fa-facebook"></i>
-                    <span class="contact-label">Facebook</span>
-                    <span class="contact-handle">MsoftInst</span>
-                </a>
                 <a href="https://wa.me/9779851180556" target="_blank" class="contact-card">
                     <i class="fa-brands fa-whatsapp"></i>
                     <span class="contact-label">WhatsApp</span>
-                    <span class="contact-handle">Chat Now</span>
+                    <span class="contact-handle">+977 9851180556</span>
                 </a>
-                <a href="https://shakyamahesh.com.np" target="_blank" class="contact-card">
-                    <i class="fa-solid fa-globe"></i>
-                    <span class="contact-label">Website</span>
-                    <span class="contact-handle">shakyamahesh.com.np</span>
+                <a href="mailto:shakya.mahes@gmail.com" class="contact-card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span class="contact-label">Email</span>
+                    <span class="contact-handle">shakya.mahes@gmail.com</span>
                 </a>
             </div>
         </div>
@@ -329,14 +500,12 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p class="footer-text">
-                    <span class="logo-bracket">&lt;</span>MS<span class="logo-bracket">/&gt;</span>
-                    &nbsp; Built with ❤️ by Mahesh Shakya
-                </p>
-                <p class="footer-copy">&copy; 2026 All rights reserved.</p>
-            </div>
+        <div class="container footer-content">
+            <p class="footer-text">
+                <span class="logo-bracket">&lt;</span>MS<span class="logo-slash">/</span><span class="logo-text">ARCH</span><span class="logo-bracket">&gt;</span>
+                &nbsp; Engineered by Mahesh Shakya
+            </p>
+            <p class="footer-copy">&copy; 2026 All Rights Reserved.</p>
         </div>
     </footer>
 
@@ -355,7 +524,6 @@
             navToggle.classList.toggle('active');
         });
 
-        // Close mobile nav on link click
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
                 navLinks.classList.remove('active');
@@ -363,7 +531,37 @@
             });
         });
 
-        // Scroll reveal animation
+        // Interactive Category Filter Logic
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const filter = btn.getAttribute('data-filter');
+
+                projectCards.forEach(card => {
+                    const category = card.getAttribute('data-category');
+                    if (filter === 'all' || category === filter) {
+                        card.style.display = 'block';
+                        setTimeout(() => {
+                            card.style.opacity = '1';
+                            card.style.transform = 'translateY(0)';
+                        }, 50);
+                    } else {
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateY(20px)';
+                        setTimeout(() => {
+                            card.style.display = 'none';
+                        }, 300);
+                    }
+                });
+            });
+        });
+
+        // Scroll reveal animation observer
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -372,19 +570,8 @@
             });
         }, { threshold: 0.1 });
 
-        document.querySelectorAll('.project-card, .tech-item, .contact-card, .stat').forEach(el => {
+        document.querySelectorAll('.project-card, .matrix-card, .arch-card, .contact-card').forEach(el => {
             observer.observe(el);
-        });
-
-        // Smooth scroll
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                }
-            });
         });
     </script>
 </body>
