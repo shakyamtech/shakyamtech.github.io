@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahesh Shakya — Full Stack Developer</title>
+    <meta name="description" content="Portfolio of Mahesh Shakya — Full Stack Developer specializing in web applications using React, TypeScript, Python, and modern frameworks.">
+    <meta property="og:title" content="Mahesh Shakya — Full Stack Developer">
+    <meta property="og:description" content="Building modern web applications that solve real problems.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://shakyamtech.github.io">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Ambient Background -->
+    <div class="ambient-bg">
+        <div class="ambient-orb ambient-orb-1"></div>
+        <div class="ambient-orb ambient-orb-2"></div>
+        <div class="ambient-orb ambient-orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="#" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>MS<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Available for freelance projects
+            </div>
+            <h1 class="hero-title">
+                Hi, I'm <span class="gradient-text">Mahesh Shakya</span>
+            </h1>
+            <p class="hero-subtitle">
+                Full Stack Developer crafting modern web applications with 
+                <span class="typed-text">React</span>, 
+                <span class="typed-text">TypeScript</span> & 
+                <span class="typed-text">Python</span>
+            </p>
+            <p class="hero-description">
+                I build real-world software solutions — from hospital management systems to e-commerce platforms — 
+                that help businesses operate smarter.
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fa-solid fa-rocket"></i> View My Work
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class="fa-solid fa-envelope"></i> Get in Touch
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">8+</span>
+                    <span class="stat-label">Projects Built</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">3+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Tech Stacks</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fa-solid fa-code"></i> Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-desc">A collection of real-world applications I've designed and developed.</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- Hospital OPD -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="card-image">
+                        <img src="assets/hospital-opd.png" alt="Hospital OPD Management" loading="lazy">
+                        <div class="card-overlay">
+                            <a href="https://github.com/shakyamtech/Hospital-OPD-Management" target="_blank" class="overlay-btn">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-tags">
+                            <span class="tag tag-blue">JavaScript</span>
+                            <span class="tag tag-green">Python</span>
+                            <span class="tag tag-orange">Firebase</span>
+                        </div>
+                        <h3 class="card-title">Hospital OPD Management</h3>
+                        <p class="card-desc">Complete hospital management system with patient records, doctor appointments, pharmacy inventory, billing and prescription management.</p>
+                    </div>
+                </div>
+
+                <!-- LMS -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="card-image">
+                        <img src="assets/lms.png" alt="Learning Management System" loading="lazy">
+                        <div class="card-overlay">
+                            <a href="https://github.com/shakyamtech/LMS-Learning-Mgmt-System" target="_blank" class="overlay-btn">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-tags">
+                            <span class="tag tag-blue">TypeScript</span>
+                            <span class="tag tag-purple">React</span>
+                            <span class="tag tag-teal">TanStack</span>
+                        </div>
+                        <h3 class="card-title">LMS — Learning Management</h3>
+                        <p class="card-desc">Full-featured learning platform with course management, student enrollment, progress tracking, video lessons and assignment submissions.</p>
+                    </div>
+                </div>
+
+                <!-- Sabzi Mandi -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="card-image">
+                        <img src="assets/sabzi-mandi.png" alt="Sabzi Mandi" loading="lazy">
+                        <div class="card-overlay">
+                            <a href="https://github.com/shakyamtech/Sabzi-Mandi" target="_blank" class="overlay-btn">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-tags">
+                            <span class="tag tag-blue">TypeScript</span>
+                            <span class="tag tag-purple">React</span>
+                            <span class="tag tag-green">Vite</span>
+                        </div>
+                        <h3 class="card-title">Sabzi Mandi</h3>
+                        <p class="card-desc">Fresh vegetable marketplace platform with product catalog, cart system, order management and delivery tracking for local vendors.</p>
+                    </div>
+                </div>
+
+                <!-- KhataPlus -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="card-image">
+                        <img src="assets/khataplus.png" alt="KhataPlus" loading="lazy">
+                        <div class="card-overlay">
+                            <a href="https://github.com/shakyamtech/KhataPlus" target="_blank" class="overlay-btn">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-tags">
+                            <span class="tag tag-blue">TypeScript</span>
+                            <span class="tag tag-purple">React</span>
+                            <span class="tag tag-teal">Finance</span>
+                        </div>
+                        <h3 class="card-title">KhataPlus</h3>
+                        <p class="card-desc">Smart accounting and bookkeeping application with ledger management, income/expense tracking, invoice generation and financial reports.</p>
+                    </div>
+                </div>
+
+                <!-- Lyka Nepal -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="card-image">
+                        <img src="assets/lyka-nepal.png" alt="Lyka Nepal" loading="lazy">
+                        <div class="card-overlay">
+                            <a href="https://github.com/shakyamtech/lyka-nepal" target="_blank" class="overlay-btn">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-tags">
+                            <span class="tag tag-blue">TypeScript</span>
+                            <span class="tag tag-purple">React</span>
+                            <span class="tag tag-orange">E-Commerce</span>
+                        </div>
+                        <h3 class="card-title">Lyka Nepal</h3>
+                        <p class="card-desc">E-commerce business platform for Nepal with product listings, brand showcase, shopping cart and secure checkout functionality.</p>
+                    </div>
+                </div>
+
+                <!-- Mangal Sensei -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="card-image">
+                        <img src="assets/mangal-sensei.png" alt="Mangal Sensei" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="overlay-label">Private Repo</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-tags">
+                            <span class="tag tag-blue">JavaScript</span>
+                            <span class="tag tag-green">Vite</span>
+                            <span class="tag tag-red">Japanese</span>
+                        </div>
+                        <h3 class="card-title">Mangal Sensei</h3>
+                        <p class="card-desc">Interactive Japanese language learning platform with Hiragana/Katakana lessons, flashcard system, quizzes and progress tracking.</p>
+                    </div>
+                </div>
+
+                <!-- Jewellery Management -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="card-image">
+                        <img src="assets/jewellery-mgmt.png" alt="Jewellery Management" loading="lazy">
+                        <div class="card-overlay">
+                            <a href="https://github.com/shakyamtech/jewellery-management" target="_blank" class="overlay-btn">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-tags">
+                            <span class="tag tag-blue">TypeScript</span>
+                            <span class="tag tag-purple">React</span>
+                            <span class="tag tag-yellow">Gold/Silver</span>
+                        </div>
+                        <h3 class="card-title">Jewellery Management</h3>
+                        <p class="card-desc">Complete jewellery shop management with gold/silver inventory, billing, customer records and product catalog system.</p>
+                    </div>
+                </div>
+
+                <!-- Restaurant Management -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="card-image">
+                        <img src="assets/restaurant-mgmt.png" alt="Restaurant Management" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="overlay-label">Private Repo</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-tags">
+                            <span class="tag tag-blue">TypeScript</span>
+                            <span class="tag tag-purple">React</span>
+                            <span class="tag tag-red">POS</span>
+                        </div>
+                        <h3 class="card-title">Restaurant Management</h3>
+                        <p class="card-desc">Restaurant ordering and kitchen management system with menu builder, table reservations, POS billing and order tracking.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="tech-stack">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fa-solid fa-layer-group"></i> Skills</span>
+                <h2 class="section-title">Tech Stack</h2>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-item"><i class="fa-brands fa-react"></i><span>React</span></div>
+                <div class="tech-item"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                <div class="tech-item"><i class="fa-brands fa-js"></i><span>TypeScript</span></div>
+                <div class="tech-item"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                <div class="tech-item"><i class="fa-brands fa-node-js"></i><span>Node.js</span></div>
+                <div class="tech-item"><i class="fa-brands fa-laravel"></i><span>Laravel</span></div>
+                <div class="tech-item"><i class="fa-solid fa-fire"></i><span>Firebase</span></div>
+                <div class="tech-item"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+                <div class="tech-item"><i class="fa-brands fa-html5"></i><span>HTML/CSS</span></div>
+                <div class="tech-item"><i class="fa-solid fa-bolt"></i><span>Vite</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fa-solid fa-paper-plane"></i> Connect</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-desc">Have a project in mind? Let's work together to build something amazing.</p>
+            </div>
+            <div class="contact-links">
+                <a href="https://github.com/shakyamtech" target="_blank" class="contact-card">
+                    <i class="fa-brands fa-github"></i>
+                    <span class="contact-label">GitHub</span>
+                    <span class="contact-handle">@shakyamtech</span>
+                </a>
+                <a href="https://www.linkedin.com/in/mahesh-shakya-nepal" target="_blank" class="contact-card">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span class="contact-label">LinkedIn</span>
+                    <span class="contact-handle">Mahesh Shakya</span>
+                </a>
+                <a href="https://www.facebook.com/MsoftInst" target="_blank" class="contact-card">
+                    <i class="fa-brands fa-facebook"></i>
+                    <span class="contact-label">Facebook</span>
+                    <span class="contact-handle">MsoftInst</span>
+                </a>
+                <a href="https://wa.me/9779851180556" target="_blank" class="contact-card">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span class="contact-label">WhatsApp</span>
+                    <span class="contact-handle">Chat Now</span>
+                </a>
+                <a href="https://shakyamahesh.com.np" target="_blank" class="contact-card">
+                    <i class="fa-solid fa-globe"></i>
+                    <span class="contact-label">Website</span>
+                    <span class="contact-handle">shakyamahesh.com.np</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">
+                    <span class="logo-bracket">&lt;</span>MS<span class="logo-bracket">/&gt;</span>
+                    &nbsp; Built with ❤️ by Mahesh Shakya
+                </p>
+                <p class="footer-copy">&copy; 2026 All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Mobile nav toggle
+        const navToggle = document.getElementById('nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+
+        // Close mobile nav on link click
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                navToggle.classList.remove('active');
+            });
+        });
+
+        // Scroll reveal animation
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.project-card, .tech-item, .contact-card, .stat').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
